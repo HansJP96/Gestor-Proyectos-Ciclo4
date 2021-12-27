@@ -1,0 +1,35 @@
+.table {
+    border-spacing: 0 15px;
+}
+
+
+.table tr {
+    border-radius: 20px;
+}
+
+/* .avances tr td:nth-child(n+5),
+.avances tr th:nth-child(n+5),
+.proyectos tr td:nth-child(n+4),
+.proyectos tr th:nth-child(n+4),
+.inscripciones tr td:nth-child(n+5),
+.inscripciones tr th:nth-child(n+5),
+.usuarios tr td:nth-child(n+5),
+.usuarios tr th:nth-child(n+5)
+ {
+    border-radius: 0 .625rem .625rem 0;
+} */
+
+tr td:nth-child(1),
+tr th:nth-child(1) {
+    border-radius: .625rem 0 0 .625rem;
+}
+
+tr td:nth-last-child(1), 
+tr th:nth-last-child(1){
+    border-radius: 0 .625rem .625rem 0;
+}
+.ventas tr td,
+.ventas tr th {
+    text-align: center;
+    /* border: 1px grey solid; */
+}
